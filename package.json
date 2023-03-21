@@ -5,7 +5,8 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
+    "dev-linux": "chmod +x ./env.sh && ./env.sh && cp env-config.js ./public/ && vite",
+    "dev-windows": "chmod +x env.sh && env.sh && cp env-config.js ./public/ && vite",
     "build": "vite build",
     "preview": "vite preview",
     "predeploy": "npm run build",

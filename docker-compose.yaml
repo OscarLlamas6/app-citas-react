@@ -1,0 +1,21 @@
+version: "3.5"
+
+services:
+
+  client:
+    container_name: client
+    image: client
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports: 
+      - 80:80
+    env_file:
+    - docker.env
+    restart: always
+    networks:
+      - service_network
+
+networks:
+  service_network:
+    driver: bridge
