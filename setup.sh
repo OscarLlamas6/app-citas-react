@@ -1,3 +1,5 @@
+#!/bin/bash
+
 # Instalando dependencias
 
 ## Instalando GIT
