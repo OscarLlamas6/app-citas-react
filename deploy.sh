@@ -1,9 +1,3 @@
-# Instalando dependencias
-
-## Instalando GIT
-
-## Instalando Docker
-
 # Iniciando deploy
 
 docker compose -f ./docker-compose.yaml down --remove-orphans
