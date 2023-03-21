@@ -29,9 +29,3 @@ sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin 
 
 sudo usermod -aG docker $USER
 sudo chown $USER /var/run/docker.sock
-
-## Clonando repositorio
-
-git clone https://github.com/OscarLlamas6/app-citas-react.git
-
-cd app-citas-react
